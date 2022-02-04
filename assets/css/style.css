@@ -17,59 +17,67 @@ h2, h3 {
     margin: auto;
 }
 
+header, 
+.yellow-container, 
+.blue-container, 
+footer {
+    width: 100%;
+}
+
 header {
     background-color: #e579e6;
-    width: 100%;
-    height: 10vh;
+    height: calc(100vh - 35vh - 3vh - 42vh - 4vh - 5vh);
     margin-bottom: 3vh;
 }
 
 .yellow-container {
     background-color: #e1d67a;
-    width: 100%;
     height: 35vh;
     margin-bottom: 3vh;
 }
 
 .blue-container {
     background-color: #0086ff;
-    width: 100%;
     height: 42vh;
     margin-bottom: 1vh;
 }
 
 footer {
     background-color: #8801fe;
-    width: 100%;
     height: 5vh;
 }
 
+.top-article, 
+.left-article, 
+.central-article,
+.right-article {
+    background-color: #abcfe7;
+}
+
 .top-article {
-    background-color: skyblue;
     width: 100%;
     height: 8vh;
     margin-bottom: 2vh;
 }
 
-.left-article {
-    background-color: skyblue;
+.left-article,
+.right-article,
+.central-article {
     width: 20%;
     height: calc(100% - 8vh - 4vh);
+}
+
+.left-article,
+.central-article,
+.right-article {
     float: left;
 }
 
 .central-article {
-    background-color: skyblue;
     width: calc(100% - 40% - 2vw);
-    height: calc(100% - 8vh - 4vh);
-    float: left;
     margin-left: 1vw;
 }
 
 .right-article {
-    background-color: skyblue;
-    width: 20%;
-    height: calc(100% - 8vh - 4vh);
-    float: left;
     margin-left: 1vw;
 }
