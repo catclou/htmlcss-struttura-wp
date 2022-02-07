@@ -44,6 +44,12 @@ header {
     margin-bottom: 1vh;
 }
 
+.clearfix {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 footer {
     background-color: #8801fe;
     height: 5vh;
