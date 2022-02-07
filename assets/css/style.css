@@ -15,8 +15,6 @@ h2, h3 {
 .big-container {
     width: 70%;
     margin: auto;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
 }
 
 header, 
@@ -44,12 +42,6 @@ header {
     margin-bottom: 1vh;
 }
 
-.clearfix {
-    content:"";
-    display: table;
-    clear: both;
-}
-
 footer {
     background-color: #8801fe;
     height: 5vh;
@@ -57,18 +49,7 @@ footer {
 
 .top-article, 
 .left-article, 
-.central-article,.clearfix {
-    content:"";
-    display: table;
-    clear: both;
-}
-
-.clearfix {
-    content:"";
-    display: table;
-    clear: both;
-}
-
+.central-article,
 .right-article {
     background-color: #abcfe7;
 }
