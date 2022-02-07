@@ -57,7 +57,18 @@ footer {
 
 .top-article, 
 .left-article, 
-.central-article,
+.central-article,.clearfix {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 .right-article {
     background-color: #abcfe7;
 }
